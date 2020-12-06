@@ -1,0 +1,63 @@
+body{
+	background:#b7b913bf;
+	background-image: url(https://raw.githubusercontent.com/shajib051/image/main/sea-edge-79ab30e2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.loginbox{
+	width:400px;
+	background:transparent;
+	box-sizing: border-box;
+	padding:50px;
+	margin:auto;
+	margin-top:100px;
+	box-shadow: 1px 3px 24px 0px
+}
+.loginbox h2{
+	text-align:center;
+}		 
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 2px;
+    outline: none;
+    padding: 10px;
+    background: #afa0a054;
+    font-size: 16px;
+    margin: auto;
+    border: 1px solid #968181;
+    border-radius: 7px;
+}	
+.loginbox input:hover{
+	border: 1px solid #afa0a0;
+}
+.loginbtn{
+	background: linear-gradient(#00ff5f,#bb000099) !important;
+	width:100% !important;
+	color:white;
+	font-size:30px;
+} 
+.loginbtn:hover{
+	background:linear-gradient(#825e5e99,#00b242) !important;
+	cursor:pointer;
+} 
+.registerlink{
+	text-align:center;
+	font-size:15px;
+	color:#7b4b4b;
+}
+.registerlink a{
+	color: #04e81c;
+	text-decoration:none;
+	font-size: 18px;
+}
+::placeholder{
+	color: #776f6f;
+	font-size: 20px;
+}
+span{
+	color: #1f0013bd;
+}
+.ami:hover{
+	text-decoration: underline;
+}
